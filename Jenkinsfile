@@ -5,7 +5,7 @@ pipeline{
         stage('Build'){
                   
                       when{
-                              building()
+                              buildingTag()
                       }
                       
                       
